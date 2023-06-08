@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabrielrufino/eslint-config/issues"
   },
-  "homepage": "https://github.com/gabrielrufino/eslint-config#readme"
+  "homepage": "https://github.com/gabrielrufino/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^8.42.0"
+  }
 }
