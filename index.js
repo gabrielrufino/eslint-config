@@ -3,7 +3,9 @@ module.exports = {
   rules: {
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
-    'import/order': ['error'],
+    'import/order': ['error', {
+      'newlines-between': 'always'
+    }],
     'import/prefer-default-export': 'off',
     'no-use-before-define': 'warn',
     'sort-imports': ['error']
