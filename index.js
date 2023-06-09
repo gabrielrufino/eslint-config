@@ -2,5 +2,8 @@
  * @type {require('@types/eslint').Linter}
  */
 module.exports = {
-  extends: 'airbnb-base'
+  extends: 'airbnb-base',
+  rules: {
+    'import/extensions': 'off'
+  }
 }
