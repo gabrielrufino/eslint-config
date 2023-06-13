@@ -11,6 +11,7 @@ module.exports = {
       'newlines-between': 'always',
     }],
     'import/prefer-default-export': 'off',
+    'global-require': 'off',
     'no-use-before-define': 'warn',
   },
   plugins: [
