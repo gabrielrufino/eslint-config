@@ -13,6 +13,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'global-require': 'off',
     'no-await-in-loop': 'off',
+    'no-underscore-dangle': 'off',
     'no-use-before-define': 'warn',
   },
   plugins: [
