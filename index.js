@@ -2,6 +2,7 @@ module.exports = {
   extends: 'airbnb-base',
   rules: {
     'import/extensions': 'off',
+    'import/no-dynamic-require': 'off',
     'import/no-unresolved': 'off',
     'import/order': ['error', {
       'alphabetize': {
