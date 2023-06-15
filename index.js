@@ -12,6 +12,7 @@ module.exports = {
       'newlines-between': 'always',
     }],
     'import/prefer-default-export': 'off',
+    'class-methods-use-this': 'off',
     'global-require': 'off',
     'no-await-in-loop': 'off',
     'no-underscore-dangle': 'off',
